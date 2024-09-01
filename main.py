@@ -1,4 +1,4 @@
-team_1 = 'Мастера кода участников'
+team_1 = 'Мастера кода'
 team_2 = 'Волшебники данных'
 #изпользование %
 
@@ -23,8 +23,10 @@ def chaleng_result():
         result = f'Победа команды {team_2}!'
     else:
         result = f'Ничья'
-
-# def tasks_total():
-
-
+    return result
+print(chaleng_result())
+tasks_total = f'Команда {team_1} решила {score_1} задач ,а команда {team_2} решила {score_2} задач'
+print(tasks_total)
+time_avg = f'Сегодня было решено {score_1 + score_2} задач, в среднем по 350.4 секунды на задачу!'
+print(time_avg)
 
